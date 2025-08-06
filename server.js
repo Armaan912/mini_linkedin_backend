@@ -22,7 +22,7 @@ connectDB();
 const app = express();
 
 app.use(cors({
-  origin: 'http://localhost:5173',
+  origin: 'https://mini-linkedin-frontend-wa8q.vercel.app',
   credentials: true,
 }));
 app.use(express.json());
