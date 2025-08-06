@@ -1,6 +1,6 @@
 // setup.js
 import dotenv from 'dotenv';
-import connectDB from './db.js';
+import connectDB from '../config/db.js';
 import fs from 'fs';
 import path from 'path';
 
